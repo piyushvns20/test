@@ -2,5 +2,12 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
+    <content>
+            <VBox class="sapUiSmallMargin">
+                <Label text="Name" labelFor="nameInput" />
+                <Input id="nameInput" placeholder="Enter your name" />
+                <Button text="Submit" press="onSubmit" />
+            </VBox>
+        </content>
     </Page>
 </mvc:View>
