@@ -5,7 +5,7 @@
     <content>
             <VBox class="sapUiSmallMargin">
                 <Label text="Name" labelFor="nameInput" />
-                <Input id="nameInput" placeholder="Enter your name" />
+                <Input id="nameInput" placeholder="Enter yourr name" />
                 <Button text="Submit" press="onSubmit" />
             </VBox>
         </content>
